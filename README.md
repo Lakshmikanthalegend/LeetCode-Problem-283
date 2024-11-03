@@ -1,1 +1,2 @@
 # LeetCode-Problem-283
+I used the two-pointer technique to solve the problem of moving zeros in an array to the end while maintaining the order of non-zero elements. One pointer (lastNonZeroIndex) tracks the position for the next non-zero element, while the other iterates through the array. Non-zero elements are shifted to the front, and after processing, the remaining positions are filled with zeros. This approach operates in-place with a time complexity of O(n) and a space complexity of O(1).
